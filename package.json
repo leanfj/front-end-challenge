@@ -1,0 +1,16 @@
+{
+  "name": "front-end-challenge",
+  "version": "1.0.0",
+  "description": "Teste vaga front end Spot",
+  "main": "index.html",
+  "repository": "https://github.com/leanfj/front-end-challenge.git",
+  "author": "leanfj <leanfj@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.3.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-wait": "^0.0.2"
+  }
+}
