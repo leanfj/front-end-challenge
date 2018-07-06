@@ -1,3 +1,6 @@
+@import ../molecules/_formBusca
+@import ../molecules/_logo
+
 .header
   display: flex
   justify-content: space-between
@@ -8,29 +11,6 @@
       flex-direction: column
       height: 155px
       justify-content: space-around
-.logo
-  width: 200px
-  &__titulo
-    display: none
-  &__imagem
-    width: 100%
-.form__busca
-  border: 1px solid $primary
-  border-radius: 55px
-  padding: 10px 20px
-  font-size: 18px
-  input
-    border: none
-    color: $primary
-    width: 175px
-    margin-left: 20px
-    transition: width .3s
-    font: 500 18px 'Fira Sans'
-    &:focus
-      outline-color: transparent
-      width: 280px
-    @media only screen and (max-width: 600px)      
-      width: 200px
-      &:focus
-        width: 220px
+
+
 
