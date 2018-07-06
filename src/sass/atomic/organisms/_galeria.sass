@@ -1,0 +1,35 @@
+.galeria
+  &__titulo
+    font-size: 60px
+    text-align: center
+    padding: 70px
+    &--red
+      color: $primary
+  &__thumbs
+    display: flex
+    flex-wrap: wrap
+    align-items: unset;
+    justify-content: space-around;
+    &__artista
+      max-width: 836px
+      position: relative
+      overflow: hidden
+      &__img
+        width: 100%
+        height: 100%
+        transition: transform 0.3s
+        &:hover
+          transform: scale(1.1)
+      &__brand
+        background-color: #00000052
+        color: #ffffff
+        position: absolute
+        bottom: 0
+        left: 0
+        width: 100%
+        padding: 19px
+        &__nome
+          font-size: 30px;
+        &__ouvintes
+          font-size: 24px;
+          font-weight: 300;
