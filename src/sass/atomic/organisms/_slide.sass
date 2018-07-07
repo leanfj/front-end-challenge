@@ -1,0 +1,32 @@
+@import ../molecules/_thumbMusica
+
+.slides
+  background-color: #080809
+  color: #fff
+  &__titulo
+    font-size: 60px
+    text-align: center
+    padding: 70px
+    text-transform: uppercase
+    &--red
+      color: $primary
+  &__musicas
+    display: flex
+    justify-content: space-between
+    margin-bottom: 35px
+  &__dots
+    display: flex
+    justify-content: center
+    padding-bottom: 48px
+    .dots
+      width: 14px
+      height: 14px
+      margin-right: 16px
+      border-radius: 55%
+      background-color: #9a9a9a
+      &:last-child
+        margin-right: 0
+      &--active
+        background-color: #e8e8e8
+
+      

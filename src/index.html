@@ -16,9 +16,9 @@
           <h1 class="logo__titulo">sopt fm</h1>
           <img src="./img/logo.png" class="logo__imagem" alt="Logo Sopt FM">
         </div>
-          <div class="form__busca">
-            <i class="fas fa-search"></i>
-            <input type="text" placeholder="BUSCAR POR ARTISTA">
+          <div class="busca">
+            <i class="fas fa-search busca__icone"></i>
+            <input type="text" placeholder="BUSCAR POR ARTISTA" class="busca__input">
           </div>
       </div>
     </div>
@@ -33,47 +33,98 @@
   </section>
   <!-- BANNER -->
   <section class="galeria">
-    <h3 class="galeria__titulo"><span class="galeria__titulo--red">ARTISTAS </span>MAIS ESCUTADOS</h3>
+    <h3 class="galeria__titulo"><span class="galeria__titulo--red">artistas </span>mais escutados</h3>
     <div class="container">
       <div class="galeria__thumbs">
-        <div class="galeria__thumbs__artista">
-          <img class="galeria__thumbs__artista__img" src="./img/negodoborel.jpg" alt="">
-          <div class="galeria__thumbs__artista__brand">
-            <h4 class="galeria__thumbs__artista__brand__nome">Lorem, ipsum.</h4>
-            <span class="galeria__thumbs__artista__brand__ouvintes">140.909 ouvintes</span>
+        <div class="artista">
+          <img class="artista__img" src="./img/negodoborel.jpg" alt="">
+          <div class="artista__brand">
+            <h4 class="artista__brand__nome">Lorem, ipsum.</h4>
+            <span class="artista__brand__ouvintes">140.909 ouvintes</span>
           </div>
         </div>
-        <div class="galeria__thumbs__artista">
-          <img class="galeria__thumbs__artista__img" src="./img/anitta.jpg" alt="">
-          <div class="galeria__thumbs__artista__brand">
-            <h4 class="galeria__thumbs__artista__brand__nome">Lorem, ipsum.</h4>
-            <span class="galeria__thumbs__artista__brand__ouvintes">140.909 ouvintes</span>
+        <div class="artista">
+          <img class="artista__img" src="./img/anitta.jpg" alt="">
+          <div class="artista__brand">
+            <h4 class="artista__brand__nome">Lorem, ipsum.</h4>
+            <span class="artista__brand__ouvintes">140.909 ouvintes</span>
           </div>          
         </div>
-        <div class="galeria__thumbs__artista">
-          <img class="galeria__thumbs__artista__img" src="./img/luansantana.jpg" alt="">
-          <div class="galeria__thumbs__artista__brand">
-            <h4 class="galeria__thumbs__artista__brand__nome">Lorem, ipsum.</h4>
-            <span class="galeria__thumbs__artista__brand__ouvintes">140.909 ouvintes</span>
+        <div class="artista">
+          <img class="artista__img" src="./img/luansantana.jpg" alt="">
+          <div class="artista__brand">
+            <h4 class="artista__brand__nome">Lorem, ipsum.</h4>
+            <span class="artista__brand__ouvintes">140.909 ouvintes</span>
           </div>          
         </div>
-        <div class="galeria__thumbs__artista">
-          <img class="galeria__thumbs__artista__img" src="./img/pablovittar.jpg" alt="">
-          <div class="galeria__thumbs__artista__brand">
-            <h4 class="galeria__thumbs__artista__brand__nome">Lorem, ipsum.</h4>
-            <span class="galeria__thumbs__artista__brand__ouvintes">140.909 ouvintes</span>
+        <div class="artista">
+          <img class="artista__img" src="./img/pablovittar.jpg" alt="">
+          <div class="artista__brand">
+            <h4 class="artista__brand__nome">Lorem, ipsum.</h4>
+            <span class="artista__brand__ouvintes">140.909 ouvintes</span>
           </div>          
         </div>
-        <div class="galeria__thumbs__artista">
-          <img class="galeria__thumbs__artista__img" src="./img/simonesimari.jpg" alt="">
-          <div class="galeria__thumbs__artista__brand">
-            <h4 class="galeria__thumbs__artista__brand__nome">Lorem, ipsum.</h4>
-            <span class="galeria__thumbs__artista__brand__ouvintes">140.909 ouvintes</span>
+        <div class="artista">
+          <img class="artista__img" src="./img/simonesimari.jpg" alt="">
+          <div class="artista__brand">
+            <h4 class="artista__brand__nome">Lorem, ipsum.</h4>
+            <span class="artista__brand__ouvintes">140.909 ouvintes</span>
           </div>          
         </div>
       </div>
     </div>
   </section>
   <!-- GALERIA -->
+  <section class="slides">
+    <h3 class="slides__titulo"><span class="slides__titulo--red">músicas </span>mais escutadas</h3>
+    <div class="container">
+      <div class="slides__musicas">
+        <div class="musica">
+          <div class="musica__imagem">
+            <img src="./img/slides.jpg" alt="Imagem artista" class="musica__imagem__artista
+            ">
+          </div>
+          <div class="musica__brand">
+            <h4 class="musica__brand__nome">Lorem, ipsum dolor.</h4>
+            <span class="musica__brand__artista">Lorem, ipsum.</span>
+          </div>
+        </div>
+        <div class="musica">
+          <div class="musica__imagem">
+            <img src="./img/slides.jpg" alt="Imagem artista" class="musica__imagem__artista
+            ">
+          </div>
+          <div class="musica__brand">
+            <h4 class="musica__brand__nome">Lorem, ipsum dolor.</h4>
+            <span class="musica__brand__artista">Lorem, ipsum.</span>
+          </div>
+        </div>
+        <div class="musica">
+          <div class="musica__imagem">
+            <img src="./img/slides.jpg" alt="Imagem artista" class="musica__imagem__artista
+            ">
+          </div>
+          <div class="musica__brand">
+            <h4 class="musica__brand__nome">Lorem, ipsum dolor.</h4>
+            <span class="musica__brand__artista">Lorem, ipsum.</span>
+          </div>
+        </div>
+      </div>
+      <div class="slides__dots">
+        <span class="dots dots--active"></span>
+        <span class="dots"></span>
+        <span class="dots"></span>
+      </div>
+    </div>
+  </section>
+  <!-- SLIDE -->
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <p class="footer__copright">&copy 2018 SPOT.FM LTD. TODOS OS DIREITOS RESERVADOS</p>
+        <img src="./img/logo.png" alt="Logo Spot FM" class="footer__imagem--footer">
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
